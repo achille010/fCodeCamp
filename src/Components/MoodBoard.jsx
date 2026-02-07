@@ -1,4 +1,5 @@
 import tom from "../img/tom.jpg"
+import trump from "../img/donald.jpg"
 
 export const MoodBoardItem = ({color, image, description}) => {
   return(
@@ -40,6 +41,12 @@ export const MoodBoard = () => {
       color: "blue",
       image: tom,
       description: "Non-chalant"
+    },
+    {
+      id: 6,
+      color: "violet",
+      image: trump,
+      description: "Donald-Trump"
     }
   ]
   return (
