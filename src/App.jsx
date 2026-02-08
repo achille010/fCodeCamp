@@ -1,8 +1,14 @@
 import { MoodBoard } from "./Components/MoodBoard";
+import Profile from "./Components/Profile";
+import Code from "./Components/Code";
 
 const App = () => {
   return (
-    <MoodBoard />
+    <>
+      {/* <MoodBoard /> */}
+      {/* <Profile /> */}
+      <Code />
+    </>
   );
 }
 
